@@ -5,6 +5,8 @@
 
 Welcome to montecarlo's documentation!
 =========================================================
+montecarlo is a Python package designed to create and allow the manipulation
+of an Ising Model using an Ising Hamiltonian.
 
 .. toctree::
    :maxdepth: 2

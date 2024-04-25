@@ -4,6 +4,8 @@ from .functions import *
 
 
 class IsingHamiltonian:
+    """Class to implement and Ising Hamiltonian object
+    """
 
     def __init__(self, J=[[()]], mu=np.zeros(1)):
         """Constructor
