@@ -1,5 +1,4 @@
 numpy
-networkx
 matplotlib
 sphinx
 sphinx_rtd_theme
