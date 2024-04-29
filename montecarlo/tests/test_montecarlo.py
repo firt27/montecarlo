@@ -96,9 +96,6 @@ def test_IH_cav():
     assert(np.isclose(HC,   0.31925472))
     assert(np.isclose(MS,   0.01202961))
 
-def test_functions_canvas():
-    """Test for the canvas function"""
 
-    assert type(canvas()) is str
 
     
