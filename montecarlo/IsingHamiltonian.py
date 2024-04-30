@@ -140,14 +140,14 @@ class IsingHamiltonian:
         emin = 0 # minimum of energy
         bs = BitString(self.N)
 
-        for i in range(2 ** 10):
+        for i in range(2 ** self.N):
             bs.set_int_config(i)
             e_list.append(self.energy(bs))
 
         emin = min(e_list)
         cmin = bs.set_int_config(e_list.index(emin))
-        nmin = bs.int()
 
-        return_tuple = emin, cmin, nmin
-
-        return return_tuple[:verbose]
+        if verbose == 0:
+            return emin
+        if verbose == 1:
+            return emin, cmin
