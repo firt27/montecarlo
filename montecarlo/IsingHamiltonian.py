@@ -119,3 +119,35 @@ class IsingHamiltonian:
         HC = (EE - E * E) / (T * T)
         MS = (MM - M * M) / T
         return E, M, HC, MS
+    
+    def get_lowest_energy_config(self, verbose=0):
+        """Finds the lowest energy of the Ising Hamiltonian
+        
+        Parameters
+        ----------
+        verbose : int
+            How much information is returned 
+        
+        Returns
+        -------
+        emin : float
+            The minimum energy
+        cmin : BitString
+            The corresponding BitString
+        """
+
+        e_list = [] # Store list of energies
+        emin = 0 # minimum of energy
+        bs = BitString(self.N)
+
+        for i in range(2 ** 10):
+            bs.set_int_config(i)
+            e_list.append(self.energy(bs))
+
+        emin = min(e_list)
+        cmin = bs.set_int_config(e_list.index(emin))
+        nmin = bs.int()
+
+        return_tuple = emin, cmin, nmin
+
+        return return_tuple[:verbose]
