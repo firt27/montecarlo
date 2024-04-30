@@ -5,8 +5,6 @@ API Documentation
    :toctree: autosummary
 
    montecarlo.canvas
-   montecarlo.energy
-   montecarlo.compute_average_values
    montecarlo.BitString
    montecarlo.IsingHamiltonian
 
