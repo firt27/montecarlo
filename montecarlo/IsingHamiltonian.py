@@ -145,7 +145,8 @@ class IsingHamiltonian:
             e_list.append(self.energy(bs))
 
         emin = min(e_list)
-        cmin = bs.set_int_config(e_list.index(emin))
+        bs.set_int_config(e_list.index(emin))
+        cmin = bs
 
         if verbose == 0:
             return emin
