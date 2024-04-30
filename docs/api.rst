@@ -7,6 +7,7 @@ API Documentation
    montecarlo.canvas
    montecarlo.BitString
    montecarlo.IsingHamiltonian
+   montecarlo.IsingHamiltonian.energy
 
 .. currentmodule:: montecarlo
 
