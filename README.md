@@ -1,4 +1,4 @@
-montecarlo
+# montecarlo
 ==============================
 [//]: # (Badges)
 [![GitHub Actions Build Status](https://github.com/firt27/montecarlo/workflows/CI/badge.svg)](https://github.com/firt27/montecarlo/actions?query=workflow%3ACI)
@@ -22,7 +22,6 @@ The repository maintainers will review your pull request before accepting your c
 
 This package requires the following:
   - NumPy
-  - matplotlib
 
 ### Copyright
 
