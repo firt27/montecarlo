@@ -1,8 +1,8 @@
 montecarlo
 ==============================
 [//]: # (Badges)
-[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/montecarlo/branch/main)
+[![GitHub Actions Build Status](https://github.com/firt27/montecarlo/workflows/CI/badge.svg)](https://github.com/firt27/montecarlo/actions?query=workflow%3ACI)
+[![codecov](https://codecov.io/gh/firt27/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/firt27/montecarlo/branch/main)
 
 
 Package for Graph States and Ising Hamiltonians
