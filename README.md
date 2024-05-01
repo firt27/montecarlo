@@ -3,6 +3,7 @@ montecarlo
 [//]: # (Badges)
 [![GitHub Actions Build Status](https://github.com/firt27/montecarlo/workflows/CI/badge.svg)](https://github.com/firt27/montecarlo/actions?query=workflow%3ACI)
 [![codecov](https://codecov.io/gh/firt27/montecarlo/branch/main/graph/badge.svg)](https://codecov.io/gh/firt27/montecarlo/branch/main)
+[![Documentation Status](https://img.shields.io/badge/docs-stable-brightgreen.svg)](https://montecarlo.readthedocs.io/en/latest/)
 
 
 Package for Graph States and Ising Hamiltonians
